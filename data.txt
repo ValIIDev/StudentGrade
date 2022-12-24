@@ -1,0 +1,2 @@
+Peter 10
+john 0
