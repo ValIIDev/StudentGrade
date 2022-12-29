@@ -56,19 +56,7 @@ while (getline(input, line))
     int mark;
     if (ss >> name >> mark)
     {
-        // Check if the name contains any digits
-        bool hasDigit = false;
-        for (char c : name)
-        {
-            if (isdigit(c))
-            {
-                hasDigit = true;
-                break;
-            }
-        }
 
-        // Add the student to the vector if the name does not contain any digits
-        if (!hasDigit)
         {
             students.push_back({ name, mark });
         }
